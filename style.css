@@ -1,0 +1,24 @@
+.wrapper{
+    border-radius: 15px;
+    background-color: #1ECEFD;
+    width: 400px;
+}
+
+body{
+    background-color:#eee;
+}
+
+.emailText{
+    color:grey;
+}
+
+.centerElement{
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+}
+
+img{
+    border-radius: 15px;
+    margin-top: 20px;
+}

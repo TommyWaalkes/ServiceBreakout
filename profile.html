@@ -1,6 +1,8 @@
-<div>
-    <img src="giphy.gif"/>
+<div class="wrapper centerElement">
+    <img class="centerElement" src="giphy.gif"/>
     <h1>{{$ctrl.user.name}}</h1>
-    <h2>{{$ctrl.user.contact}}</h2>
+    <h2 class="emailText">{{$ctrl.user.contact}}</h2>
     <p>{{$ctrl.user.bio}}</p>
+
+    <button ng-click="$ctrl.editProfile()">Edit Profile</button>
 </div>

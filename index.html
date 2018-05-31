@@ -1,13 +1,16 @@
 <hmtl ng-app="profile">
     <head>
-
+        <link href="style.css" rel="stylesheet"/>
     </head>
     <body>
 
-            <pro></pro>
-            <edit></edit>
+            <ng-view></ng-view>
+           
             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+            <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.js'></script>
             <script src="module.js"></script>
+        
+            <script src="routing.js"></script>
             <script src="profile.js"></script>
             <script src="edit.js"></script>
             <script src="userService.js"></script>

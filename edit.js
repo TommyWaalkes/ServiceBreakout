@@ -2,7 +2,7 @@
 {
     let edit = {
         templateUrl :"edit.html",
-        controller: function(userService){
+        controller: function(userService, $location){
             let vm = this;
             // vm.name = "Palpatine";
             // vm.contact = "IamtheSenate@emperor.com";
@@ -10,10 +10,11 @@
             vm.user = userService.getUser();
             vm.update = function(){
                 userService.setUser(vm.user);
+                $location.path("/profile");
             }
         }
     }
-    edit.$inject = ["userService"];
+    edit.$inject = ["userService", "$location"];
 
     angular
         .module("profile")
