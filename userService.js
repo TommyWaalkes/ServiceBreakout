@@ -1,11 +1,11 @@
 "use strict";
 {
     function userService(){
-    let user ={
-        name: "Palpy",
-        contact: "PalyBoi@IamtheSentate.com",
-        bio: "I run the universe, GOML"
-    }
+        let user ={
+            name: "Palpy",
+            contact: "PalyBoi@IamtheSentate.com",
+            bio: "I run the universe, GOML"
+        }
     const getUser = function(){
         return user;
     };
